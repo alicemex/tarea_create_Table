@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+* {
+    margin: 1rem;
+    padding: 0;
+}
+
+table tr {
+    background-color: rgb(236, 219, 236);
+}
+
+td {
+    font-family: 'Montserrat';
+    margin: 5px;
+    padding: 15px;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 1%, rgba(231, 211, 238, 1) 76%, rgba(218, 208, 224, 1) 100%);
+}
+
+button {
+    font-family: 'Montserrat';
+    font-weight: bolder;
+    border: 0px;
+    background: linear-gradient(0deg, rgba(122, 19, 47, 1) 1%, rgba(162, 34, 68, 1) 72%);
+    color: white;
+    width: 5rem;
+    height: 1rem;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 2rem;
+    box-sizing: content-box;
+}
+
+button:hover {
+    background: rgb(122, 19, 47);
+    background: linear-gradient(0deg, rgba(122, 19, 47, 1) 1%, rgba(111, 34, 162, 1) 72%);
+}
